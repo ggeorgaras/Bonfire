@@ -2,6 +2,13 @@
 
 class MY_Form_validation extends CI_Form_validation {
     
+	/**
+	 * Hack to make it work properly with HMVC in CI2.1
+	 * 
+	 * @var object 
+	 */
+	public $CI;
+	
     /**
      * MY_Form_validation::__construct()
      * 
